@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>Kevin Perkins</title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/default.css"/>
 </head>
 
 <body>
-	<header><h1>Kevin C. Perkins</h1></header>
-	<nav>
+	<a href="index.html"><header><span class="orange">K</span>evin <span class="orange">C</span>. <span class="orange">P</span>erkins</header></a>
+	<nav id="topnav">
 		<a href="#">Home</a>
 		<a href="#">About Me</a>
 		<a href="#">Projects</a>
 		<a href="#">Resume</a>
 	</nav>
 
+	<section id="mainsect">
 	<section>
-		<img src="imgs/pic1.jpg" alt="KevinPicture">
+		<img src="imgs/pic1.jpg" alt="KevinPicture" title="Kevin Perkins" id="mainpic">
 	</section>
 
-	<section>
-		<img src="imgs/pic2.jpg" alt="KevinPicture">
-		<img src="imgs/pic3.jpg" alt="KevinPicture">
-		<img src="imgs/pic4.jpg" alt="KevinPicture">
+	<section id="sidepics">
+		<img src="imgs/pic2.jpg" alt="KevinPicture" title="Kevin Perkins" class="sidepic">
+		<img src="imgs/pic3.jpg" alt="KevinPicture" title="Kevin Perkins" class="sidepic">
+		<img src="imgs/pic4.jpg" alt="KevinPicture" title="Kevin Perkins" class="sidepic">
 	</section>
 
-	<section>
-		<p>A passionate, well-rounded and team-oriented individual with a desire to build amazing things and enjoy every second of it.</p>
+	<section id="desc">
+		<p><span class="quotes">&ldquo;</span>A passionate, well-rounded and team-oriented individual with a desire to build amazing things and enjoy every second of it.<span class="quotes">&rdquo;</span></p>
 	</section>
+</section>
 
 	<footer>
-	<nav>
+	<nav id="bottomnav">
 		<a href="#">Find Me Online</a>
-		<a href="blog/index.html">See My Blog</a>
+		<a href="blog/index.html"><span id="seeblog">&rarr; See My Blog &larr;</span></a>
 		<a href="#">Contact Information</a>
 	</nav>
 	</footer>
