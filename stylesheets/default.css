@@ -1,0 +1,171 @@
+a {
+	text-decoration: none;
+	color: #7A7A7A;
+}
+
+body {
+	background-color: white;
+	color: #7A7A7A;
+	font-family: sans-serif;
+	font-weight: 100;
+	width: 90%;
+	margin: auto;
+}
+
+header {
+	font-size: 50px;
+	text-transform: lowercase;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	letter-spacing: 5px
+}
+
+.orange {
+	color: #DC4C18;
+	font-weight: 500;
+}
+
+nav {
+	background-color: #7A7A7A;
+	border-radius: 20px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-family: sans-serif;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+nav a:hover {
+	color: #DC4C18;
+}
+
+#mainsect {
+	display: inline-block;
+	width: 100%;
+	margin: 60px 10px;
+}
+
+#mainpic {
+	border-radius: 100%;
+	float: left;
+	margin-right: 10%;
+}
+
+#sidepics {
+	width: 500px;
+	float: left;
+	border-bottom: 0.5px solid black;
+	padding-bottom: 40px;
+	padding-left: auto;
+	padding-right: auto;
+}
+
+.sidepic {
+	height: 30%;
+	width: 30%;
+	float: left;
+	margin: 5px;
+}
+
+
+#desc {
+	float: left;
+	width: 500px;
+	font-size: 16px;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.quotes {
+	font-size: 30px;
+	color: #DC4C18;
+	font-weight: bold;
+}
+
+#seeblog {
+	padding: 3px 15px;
+	background-color: #DC4C18;
+	border-radius: 15px;
+}
+
+#seeblog:hover {
+	background-color: white;
+	color: ##DC4C18;
+}
+
+footer {
+	clear: both;
+}
+
+
+
+/*Blog Index Code*/
+
+
+
+#blogimg {
+	float: right;
+	width: 173px;
+	height: 68px;
+}
+
+#contents_title {
+	text-align: center;
+	text-transform: uppercase;
+	margin: 
+}
+
+#contents {
+	margin: auto;
+}
+
+#contents a {
+	display: block;
+	border: 0.5px solid #7A7A7A;
+	margin: 25px auto;
+	padding: 10px;
+	width: 90%;
+	height: 20px;
+	text-align: center;
+	background-color: #CBCCCC;
+	text-decoration: none;
+	color: black;
+}
+
+.blogtitle {
+	float: left;
+	color: #DC4C18;
+	font-size: 20px;
+}
+
+.dates {
+	float: right;
+	color: #DC4C18;
+	font-size: 12px;
+}
+
+#contents a:hover {
+	background-color: #DC4C18;
+}
+
+#contents a:hover .blogtitle {
+	color: white;
+}
+
+#contents a:hover .dates {
+	color: white;
+}
+
+#blogpost {
+	width: 90%;
+	padding: 20px;
+	border: 1px solid #DC4C18;
+	margin: 20px auto;
+	border-radius: 5px;
+}

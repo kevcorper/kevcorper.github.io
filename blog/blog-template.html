@@ -1,63 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>My Blog</title>
+  <meta charset="UTF-8">
+  <title>My Blog</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css"/>
 </head>
-
-
-<!-- Reflection:
-How was it to wireframe and create an HTML page with a pair?
-It was great, my partner and I really got in to bouncing ideas off of one another and exploring the idea of user interface and experience.  Creating the html together also made us realize that even though html is mostly semantics, there are certain ways of doing things differently that can be even more beneficial to your code (ex: my partner had a great idea to use a table element to create a border around the main blog content, which I had not thought of).
-
-Did you find wireframing to be helpful to your development process?
-I did, it is a great way to look over your page as a user would, without worrying about colors, fonts etc.  You just focus on navigability and layout, which allows for you to truly consider UX.
-
-What did you and your pair decide made a good wireframe? 
-We decided it really just needs to represent the layoung in a way that communicate the usability and navigability of the website.
-
-What new semantic elements did you learn about (if any)?
-We learned more about the article element, and how it is useful in wrapping things like a blog post.  We also dicussed the usefulness of the nav element for both top, bottom and side navigation menus. 
-
-link to wireframe: https://github.com/kevcorper/kevcorper.github.io/blob/master/imgs/wireframe-blogs.png
--->
 
 <body>
 
-	<header>
-	<h1>Kevin C. Perkins</h1>
-	<img align="right" src="../imgs/blog-logo.png" alt="Blog Logo">
-	</header>
+  <header>
+  <a href="../index.html"><span class="orange">K</span>evin <span class="orange">C</span>. <span class="orange">P</span>erkins</a>
+  <img align="right" src="../imgs/blog-logo.png" alt="Blog Logo">
+  </header>
 
-	<article>
-	<h2>Blog Title</h2>
-	<h3>Date</h3>
-	<table border="1" style="width: 100%">
-		<tr>
-			<td>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lobortis et tellus in consectetur. Duis vel libero semper, ultrices ante nec, faucibus justo. Cras ullamcorper nisl malesuada mauris sodales fringilla. Vestibulum non dui rutrum, feugiat eros id, porttitor nisl. Aenean sed molestie arcu, vitae consequat nibh. Quisque volutpat, augue congue blandit convallis, purus purus molestie elit, ac semper dui sem id eros. Sed dapibus magna non volutpat condimentum. Praesent pharetra nisl risus, in pharetra libero molestie ullamcorper. Etiam vel tellus sit amet nunc porttitor varius. Sed libero magna, vestibulum vitae rhoncus a, pharetra ut tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam iaculis, mauris id luctus fermentum, nisl mauris posuere urna, id tristique lacus arcu in purus.
+  <article>
+  <h2>Version Control</h2>
+  <h3>January 28, 2015</h3>
+  <section id="blogpost">
+          <p>
+              <b>Version Control</b><br>
+              Version Control allows for a developer to not only track changes as they continue to update their code, but also can provide a complete history of changes made to an outside developer that wishes to update, review or revise your code.  This all makes open source code online much more simple, as the sharing of code with its history of updates and "versions" makes for a more streamlined process of sharing code and merging changes.
+              </p>
+            <p>
+              <b>git</b><br>
+              Git is a piece of software run from the command line that allows for a developer to keep track of these changes and utilize version control.  With git, the developer works on their project while simultaneously updating commits, which are essentially snapshots of the code that save where the developer was at.  Git then keeps a log of these commits, which allows for the user to review past commits and revert to earlier version if a mistake is made or the user decides they liked the earlier version better.  Ultimately, git is great in giving the user a backup in case of any accidents.
+              </p>
+              <p>
+              <b>GitHub</b><br>
+              GitHub is an online remote community that not only allows for social networking between developers, but is an amazing repository for code that allows for seamless team coding, code storage, and open sourcing of code.  This allows for users to share their own repositories, fork and branch from other user's repositories, and ultimately merge any updates made by others.  GitHub is an excellent way to store code all while sharing and exploring the projects of others.
+             </p>
+  </section>
+  </article>
 
-				<p>Duis eleifend lectus risus, molestie ornare ex egestas nec. Integer id tristique ex. Vivamus a mauris tincidunt, vehicula arcu ut, vehicula ex. Proin viverra metus nec lectus sagittis, vitae vulputate turpis tincidunt. Praesent ligula ligula, rhoncus eu nibh quis, ultricies fringilla dui. Donec ultrices orci sapien, eu eleifend sem iaculis vitae. Duis ornare eget urna et auctor. Ut elementum id ligula blandit efficitur. Vivamus dictum in lectus in porta. Ut suscipit metus at metus ultricies vulputate. Pellentesque porta urna a tortor malesuada auctor.</p>
-
-				<p>In convallis purus sit amet nisl luctus, vitae ullamcorper metus efficitur. Vivamus vel ipsum rhoncus, fermentum ligula quis, convallis turpis. Proin tempus, ante ut vestibulum rhoncus, nisi ex varius libero, non elementum odio libero sit amet purus. Aenean semper scelerisque lacinia. Ut lacus elit, vestibulum posuere est eget, consequat mollis nisi. Donec convallis quam ut arcu accumsan accumsan. Nulla consectetur eget elit vel sagittis. Fusce lacinia sodales dolor et ornare. Suspendisse mattis diam vel lobortis sagittis. Nunc vel placerat justo, vel posuere nunc. Cras ac libero id nisl placerat dictum id id velit.</p>
-			</td>
-		</tr>
-	</table>
-	</article>
-
-	<footer>
-	<table border="1" style="width: 100%">
-		<tr>
-			<td>
-				<nav>
-					<a href="#" align="left">Back</a>
-					<a href="index.html" align="center">Contents</a>
-					<a href="#" align="right">Next</a>
-				</nav>
-			</td>
-		</tr>
-	</table>
-	</footer>
+    <footer>
+        <nav>
+          <a href="git.html" align="left">Back</a>
+          <a href="index.html" align="center"><span id="seeblog">Contents</span></a>
+          <a href="blog-template.html" align="right">Next</a>
+        </nav>
+      </footer>
 </body>
 
 </html>
