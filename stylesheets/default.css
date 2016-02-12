@@ -28,9 +28,9 @@ header {
 nav {
 	background-color: #7A7A7A;
 	border-radius: 20px;
-	height: 35px;
+	height: 40px;
 	text-align: center;
-	line-height: 35px
+	line-height: 40px
 }
 
 nav a {
@@ -82,11 +82,18 @@ nav a:hover {
 	padding-top: 20px;
 }
 
+#contact_info {
+	width: 50%;
+	text-align: center;
+	margin: 150px auto;
+}
+
 .quotes {
 	font-size: 30px;
 	color: #DC4C18;
 	font-weight: bold;
 }
+
 
 #seeblog {
 	padding: 3px 15px;
@@ -97,6 +104,22 @@ nav a:hover {
 #seeblog:hover {
 	background-color: white;
 	color: ##DC4C18;
+}
+
+#icons {
+	width: 16%;
+	float: left;
+}
+
+#contact {
+	float: right;
+	margin-right: 15px
+}
+
+.icon {
+	margin-top: 8px;
+	height: 25px;
+	width: 25px;
 }
 
 footer {
