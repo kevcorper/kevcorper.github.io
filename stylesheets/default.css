@@ -82,10 +82,10 @@ nav a:hover {
 	padding-top: 20px;
 }
 
-#contact_info {
-	width: 50%;
+.info-section {
+	width: 80%;
 	text-align: center;
-	margin: 150px auto;
+	margin: 100px auto;
 }
 
 .quotes {
