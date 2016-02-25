@@ -69,6 +69,14 @@
 	margin: auto;
 }
 
+.code {
+	font-family: monospace;
+	background-color: gray;
+	padding: 15px;
+	color: white;
+	border-radius: 5px;
+}
+
 
 
 

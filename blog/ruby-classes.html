@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Blog</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css"/>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css"/>
+</head>
+
+<body>
+
+  <header>
+  <a href="../index.html"><span class="orange">K</span>evin <span class="orange">C</span>. <span class="orange">P</span>erkins</a>
+  <img align="right" src="../imgs/blog-logo.png" alt="Blog Logo">
+  </header>
+
+  <article>
+  <h2>Ruby Classes</h2>
+  <h3>February 24, 2016</h3>
+  <section id="blogpost">
+          <p>
+              <b>Example of a Class</b><br>
+              <p class = "code">
+                class fruit<br>
+                <br>
+                attr_reader :name<br>
+                attr_writer :price<br>
+                <br>
+                def initialize<br>
+                @name = name<br>
+                @price = price<br>
+                end<br>
+                <br>
+                def display<br>
+                puts "#{@name} costs $#{@price}"<br>
+                end<br>
+                <br>
+                end
+              </p>
+              </p>
+            <p>
+              <b>Instance Variables</b><br>
+              Instance Variables are defined using the symbol @ in front of the symbol name.  This particular variable is used within defining a method with the intent of being able to cal upon that variable outside of the method.  Without making the instance variable and instance, the variable would be considered local and would therefore only reside inside of the method.  Using the @ symbol allows for the variable to exist outside of the method. This means that @name and @cost can be called outside of the method initialize (which is called whenever a new class object is created), as in the display method.
+              </p>
+              <p>
+              <b>Attribute Readers/Writers</b><br>
+              Atrribute readers and writers (written attr_reader and attr_writer) are used to allow the variables to be called outside of the method, similarly to instance variables, but in a different form.  The attr method automatically makes the given variable a method as well.  This means that in the above example, the attributes name and price can be called upon the class objects as methods.  There is difference in how they can be called, however, since one is a reader and the other a writer.  A reader attribute returns the value when called, but can not be modified.  A writer does the opposite, allowing for the price to be modified but not returned outside of the class.  Therefore, calling .name on a fruit object of the name "apple" would return "apple", while calling apple.price = 4.41 would change the apple price to 4.41.
+             </p>
+  </section>
+  </article>
+
+    <footer>
+        <nav>
+          <a href="enumerable-methods.html" align="left">Back</a>
+          <a href="index.html" align="center"><span id="seeblog">Contents</span></a>
+          <a href="#" align="right">Next</a>
+        </nav>
+      </footer>
+</body>
+
+</html>
