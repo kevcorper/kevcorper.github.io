@@ -1,0 +1,33 @@
+.project_list {
+	margin: auto;
+	width: 90%;
+}
+
+.project_list a {
+	display: inline-block;
+	border: 0.5px solid #7A7A7A;
+	margin: 50px 100px;
+	padding: 10px;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	background-color: #DC4C18;
+	text-decoration: none;
+	color: white;
+}
+
+.project_list a:hover {
+	display: inline-block;
+	border: 0.5px solid #7A7A7A;
+	margin: 50px 100px;
+	padding: 10px;
+	width: 99.5px;
+	height: 99.5px;
+	text-align: center;
+	line-height: 100px;
+	background-color: white;
+	text-decoration: none;
+	color: #DC4C18;
+	border: 1px solid black;
+}
