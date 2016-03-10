@@ -3,6 +3,10 @@
 	width: 90%;
 }
 
+a {
+	color: #DC4C18;
+}
+
 .project_list a {
 	display: inline-block;
 	border: 0.5px solid #7A7A7A;
@@ -15,6 +19,7 @@
 	background-color: #DC4C18;
 	text-decoration: none;
 	color: white;
+	font-size: 12px;
 }
 
 .project_list a:hover {
@@ -22,12 +27,21 @@
 	border: 0.5px solid #7A7A7A;
 	margin: 50px 100px;
 	padding: 10px;
-	width: 99.5px;
-	height: 99.5px;
 	text-align: center;
 	line-height: 100px;
 	background-color: white;
 	text-decoration: none;
 	color: #DC4C18;
-	border: 1px solid black;
+	border: 0.5px solid black;
+}
+
+.cheat {
+	width: 1000px;
+	height: 450px;
+	overflow: scroll;
+	margin: 15px auto;
+}
+
+.cheat h3 {
+	color: #DC4C18;
 }

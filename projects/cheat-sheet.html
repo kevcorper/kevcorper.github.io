@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Kevin Perkins</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css"/>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/projects.css"/>
+</head>
+
+<body>
+  <a href="index.html"><header><span class="orange">K</span>evin <span class="orange">C</span>. <span class="orange">P</span>erkins</header></a>
+  <nav id="topnav">
+    <a href="../index.html">Home</a>
+    <a href="../about_me.html">About Me</a>
+    <a href="index.html">Projects</a>
+    <a href="#">Resume</a>
+  </nav>
+
+<section class="cheat">
+<h1>Ruby: A Basic Overview</h1><hr>
+<h3>What is Ruby?</h3>
+<p>Ruby is a dynamic, object-oriented programming language developed in the 90s and has been gaining popularity since.  The language utilizes a more simplistic and legible structure to its code and contains an enormous library of methods.  This leads to the growing number of Ruby users to consider it a language that is artful and simple yet incredibly complex under the hood.  The flexibility of the language with libraries (gems) and frameworks such as the extremely popular Ruby on Rails.</p>
+
+<h3>Data Types</h3>
+<p>Everything in Ruby is an object, which allows for every bit of information to be given their own properties and methods.  This means that even an integer has inherent methods that can built upon.</p>
+<p><b>Strings:</b> Created using the String::new object creator or enclosed in single or double quotation marks as literals, strings are characters.</p>
+<p><b>Numbers:</b> Integers and floats are considered numbers when written as is, with integers containing whole numbers and floats decimals.</p>
+<p><b>Symbols:</b> Although creating everything as an object is great for Ruby's flexibility, it also adds a cost of slower code due to the fact that Ruby is creating every bit of information as an object (even identical strings).  Symbols, created using a colon, allow for Ruby to use a lighter object that allows for faster code because they create unique objects that will always have the same objectID.</p>
+<p><b>Arrays:</b> Arrays are lists, specifically lists that rely on order.  They are created inside brackets and use an index notation to call upon items in the list.  This index notation begins at 0 and can be called inside brackets to select certain items (array[index]).</p>
+<p><b>Hashes:</b> Hashes are created in curly brackets or literally with a hash constructor.  They are also lists, but contain a bit more information where order is not as important as meaning and value.  Hashes use key pairs (a key and value) to store information, where values can be selected by calling the key, which are often symbols, on the hash (hash[:key]).</p>
+<p><b>Variables:</b> Variables are created on the spot without needing explicit declaration.  Setting any value beginning with a letter equal to any value will automatically create a variable. Depending on the location of variable instantiation, they can be local(using lowercase camelCase), instance(using an @ symbol), constant(all caps) or global(using $).</p>
+<p><b>Methods:</b> Ruby methods are very similar to functions in other langauges.  They are created using the def keyword and utilize a block of code to be called upon any objects as long a the arguments match up.</p>
+
+<h3>Loops</h3>
+<p>Ruby loops are used to execute the same block of code for an x amount of times.</p>
+<p><b>While:</b> While loops execute the code while a condition is true.</p>
+<p><b>Until:</b> Until loops execute the code until a condition is true.</p>
+<p><b>For-in:</b> For-in loops execute the code in a certain expression for as large as the expression is (used on arrays and hashes).  The for-in loop is so similar to the Ruby each method that it often gets replaced with each.</p>
+<p>Ruby utilizes statements within its loops as well for easy use.  The <em>break</em> statement terminates the most inner loop you are currently in and the <em>next</em> statement allows for the loop to skip the current iteration and move on to the next without breaking.</p>
+
+<h3>Enumerables</h3>
+<p>Ruby enumerables utilize the method <em>each</em>, which iterates through an array or hash to execute a block of code for each element, to create further specific iterating methods on array and hashes.  There is an extensive list of enumerables which can be found <a href="http://ruby-doc.org/core-2.2.3/Enumerable.html">HERE</a>, but I have included some of the enumerables that I have personally found most useful.</p>
+<p><b>map/collect:</b> returns a new array with the block of code affecting each element.</p>
+<p><b>include?():</b> returns true or false if the array includes the specified value.</p>
+<p><b>max/min:</b> returns the maximum or minimum value of the array.</p>
+<p><b>select:</b> returns a new array with only the elements that satisfy a specific condition</p>
+<p><b>map/collect:</b> returns a new array with the block of code affecting each element.</p>
+
+</section>
+
+
+
+<footer>
+  <nav id="bottomnav">
+    <span id="icons"><a href="https://github.com/kevcorper"><img src="../imgs/github.svg" alt"github" class="icon"></a>
+    <a href="https://www.linkedin.com/in/kevperk"><img src="../imgs/linkedin.png" alt"instagram" class="icon"></a>
+    <a href="https://www.instagram.com/kperk56/"><img src="../imgs/instagram.png" alt"instagram" class="icon"></a></span>
+    <a href="../blog/index.html" id="seeblog">&rarr; See My Blog &larr;</a>
+    <a href="../contact.html" id="contact">Contact Information</a>
+  </nav>
+  </footer>
+
+</body>
+
+</html>
