@@ -8,7 +8,7 @@ body {
 	color: #7A7A7A;
 	font-family: sans-serif;
 	font-weight: 100;
-	width: 90%;
+	width: 80%;
 	margin: auto;
 }
 
@@ -58,8 +58,9 @@ nav a:hover {
 }
 
 #sidepics {
-	width: 500px;
+	width: 50%;
 	float: left;
+	text-align: center;
 	border-bottom: 0.5px solid black;
 	padding-bottom: 40px;
 	padding-left: auto;
@@ -69,14 +70,13 @@ nav a:hover {
 .sidepic {
 	height: 30%;
 	width: 30%;
-	float: left;
 	margin: 5px;
 }
 
 
 #desc {
 	float: left;
-	width: 500px;
+	width: 50%;
 	font-size: 16px;
 	text-align: center;
 	padding-top: 20px;
