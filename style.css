@@ -84,7 +84,7 @@ p {
 }
 
 #moon {
-  position: absolute;
+  position: fixed;
   right: -75px;
   top: 40px;
 	transform: rotate(40deg);	
