@@ -59,6 +59,7 @@ a:hover {
 
 p {
 	margin: 10px;
+	background: rgba(253, 253, 253, 0.5);
 }
 
 #main-title {
@@ -90,6 +91,19 @@ p {
 	transform: rotate(40deg);	
 	z-index: -1;
 	display: none;
+	-webkit-filter: blur(0.25px);
+  -moz-filter: blur(0.25px);
+  -o-filter: blur(0.25px);
+  -ms-filter: blur(0.25px);
+  filter: blur(0.25px);
+}
+
+.star {
+	-webkit-filter: blur(0.5px);
+  -moz-filter: blur(0.5px);
+  -o-filter: blur(0.5px);
+  -ms-filter: blur(0.5px);
+  filter: blur(0.5px);
 }
 
 .moon-circle {
