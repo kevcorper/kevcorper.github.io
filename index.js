@@ -94,7 +94,8 @@ $(function() {
 	});
 
 	var degrees = 45;
-	var nightSkyOff = true;
+	var skyCreated = false;
+	var skyTurnedOn = false;
 	$('#night a').click(function(e) {
 		e.preventDefault();
 
@@ -105,8 +106,9 @@ $(function() {
 	    'transform' : 'rotate('+ degrees +'deg)'
 	   });
 
-		if (nightSkyOff) {
-			nightSkyOff = false;
+		if (!skyCreated) {
+			skyCreated = true;
+			skyTurnedOn = true;
 		  for (var i = 0; i < 400; i++ ) {
 		    var star = createStar;
 		    $('#sky').append(star);
@@ -114,10 +116,16 @@ $(function() {
 		  var elements = $('.star').toArray();
 		  (function myLoop (i) {          
 		     setTimeout(function () {   
-				  $(elements[i]).fadeIn(300);                
-		      if (--i) myLoop(i);
-		     }, 50)
+				  $(elements[i]).fadeIn(600);                
+		      if (--i && skyTurnedOn) myLoop(i);
+		     }, 25)
 		  })(400); 
+		} else if (skyTurnedOn) {
+			skyTurnedOn = false;
+			$('.star').fadeOut(800);
+		} else {
+			skyTurnedOn = true;
+			$('.star').fadeIn(800);
 		}
 	});
 });
