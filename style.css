@@ -25,6 +25,7 @@ html {
 body {
 	min-width: 300px;
 	margin: auto;
+	overflow: scroll;
 }
 
 #sky {
@@ -292,7 +293,7 @@ footer {
 	}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
 	#main-title {
     font-size: 2em;
     margin: 0;
