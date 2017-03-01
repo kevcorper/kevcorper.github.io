@@ -167,6 +167,11 @@ section {
 	margin-top: 75px;
 }
 
+#projects {
+	max-height: 350px;
+	overflow: scroll;
+}
+
 #skills ul {
 	display: inline-block;
 	text-align: center;
